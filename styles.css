@@ -11,31 +11,32 @@ body {
 }
 
 .header {
-    background-color: #fff;
-    border-bottom: 1px solid #e0e0e0;
-    padding: 10px 20px;
+    background-color: #fff; /* Ensure white background */
+    border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
+    padding: 10px 20px; /* Padding inside header */
 }
 
 .header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1200px; /* Limit width to match design */
+    margin: 0 auto; /* Center the content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space logo and menu */
+    align-items: center; /* Vertically center items */
 }
 
 .logo img {
-    height: 40px;
+    height: 40px; /* Match logo height from screenshot */
 }
 
 .nav-menu ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+    list-style: none; /* Remove bullets */
+    display: flex; /* Horizontal menu */
+    gap: 15px; /* Space between menu items */
 }
 
 .nav-menu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray text */
+    font-size: 14px; /* Match menu text size */
+    padding: 5px 10px; /* Add padding for click area */
 }
